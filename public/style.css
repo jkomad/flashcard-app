@@ -1,0 +1,60 @@
+/* Main App Component */
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    border-bottom: solid black 2px;
+}
+
+nav > * {
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > *:hover {
+    color: red;
+}
+
+/* Flashcard Component */
+
+.flashcards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flashcard {
+    position: relative;
+    height: 300px;
+    width: 200px;
+    border: solid black 1px;
+    margin: 10px;
+    text-align: center;
+}
+
+.edit-button {
+    position: absolute;
+    left: 85px;
+    bottom: 10px;
+}
+
+/* Admin Component */
+
+#form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#new-flashcard {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
